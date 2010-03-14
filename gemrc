@@ -12,3 +12,5 @@ gem: --no-ri --no-rdoc
 :benchmark: false
 :update_sources: true
 :backtrace: false
+install: --env-shebang
+update: --env-shebang
