@@ -1,0 +1,14 @@
+# ~.autotest
+require 'autotest_notification'
+SPEAKING = false
+DOOM_EDITION = false
+BUUF = true
+PENDING = false
+STICKY = false
+SUCCESS_SOUND = ''
+FAILURE_SOUND = ''
+AUTOFEATURE = true
+
+# this require must happen after all others in this file
+# http://github.com/svoop/autotest-fsevent/tree/master
+require 'autotest/fsevent'
