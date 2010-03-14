@@ -5,27 +5,33 @@
 [push]
   default = tracking
 [color]
-	diff = auto
-	status = auto
-	branch = auto
+  diff = auto
+  status = auto
+  branch = auto
+  sh = auto
+  ui = auto
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 [format]
   pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s
 [alias]
-  c = commit -m
-  a = add
-  di = diff
-  dic = diff --cached
-  pl = pull
+  co = checkout
   ps = push
+  pl = pull
   plre = pull --rebase
   st = status
+  br = branch
+  a = add
+  ci = commit -m
+  ca = commit --amend
+  rb = rebase
+  di = diff
+  dic = diff --cached
   out = log origin..HEAD
   qpl = log --pretty=\"%Cblue%h%Creset %Cgreen[%cr]%Creset %s\" origin/production..origin/master
   graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-  ci = commit
-  ca = commit --amend
   pr = remote prune origin
   up = !git fetch origin && git rebase origin/master
   rbc = rebase --continue
+  out = log origin..HEAD
+  sh = !git-sh
