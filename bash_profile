@@ -34,13 +34,7 @@ function cdls() {
 function la ()  {
 	ls -lAFGho "$@"; 
 }
-
-# alias ls='ls -G'
-# alias ls='ls -lAFG'
-# alias ll='ls -hl'
-alias cd='cdls'
-
-alias server='sudo script/server -u -p 80'
+source $HOME/.aliases
 
 # \! History number of command
 # \# Command number of current command
