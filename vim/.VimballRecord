@@ -1,1 +1,2 @@
 snippy_plugin.vba: call delete('/Users/jferris/.vim/plugin/snippetsEmu.vim')|call delete('/Users/jferris/.vim/doc/snippets_emu.txt')
+supertab.vba: call delete('/Users/gsterndale/.vim/doc/supertab.txt')|call delete('/Users/gsterndale/.vim/plugin/supertab.vim')
