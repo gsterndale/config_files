@@ -71,3 +71,6 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 export MANPATH=/opt/local/share/man:$MANPATH
 
 export AUTOFEATURE=false
+
+# rvm - shell scripts that allows a user to manage multiple ruby versions in their own account.
+if [[ -s /Users/gsterndale/.rvm/scripts/rvm ]] ; then source /Users/gsterndale/.rvm/scripts/rvm ; fi
