@@ -1,5 +1,7 @@
-.*.swp
+*.swp
 tags
-.swo
+*.swo
+.DS_Store
+.bundle
 jferris-*.gemspec
 *.scratch.*
