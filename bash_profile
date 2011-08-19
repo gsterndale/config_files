@@ -64,12 +64,6 @@ export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/
 # /usr/local/mysql/bin/mysql
 export PATH="/usr/local/mysql/bin:$PATH" # "/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/mysql/bin"
 
-# MacPorts Installer addition on 2009-01-20_at_16:47:31: adding an appropriate PATH variable for use with MacPorts.
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-
-# MacPorts Installer addition on 2009-01-20_at_16:47:31: adding an appropriate MANPATH variable for use with MacPorts.
-export MANPATH=/opt/local/share/man:$MANPATH
-
 export AUTOFEATURE=false
 
 # rvm - shell scripts that allows a user to manage multiple ruby versions in their own account.
