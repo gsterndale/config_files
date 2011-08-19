@@ -61,9 +61,6 @@ fi
 
 export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/"
 
-# /usr/local/mysql/bin/mysql
-export PATH="/usr/local/mysql/bin:$PATH" # "/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/mysql/bin"
-
 export AUTOFEATURE=false
 
 # rvm - shell scripts that allows a user to manage multiple ruby versions in their own account.
