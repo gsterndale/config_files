@@ -24,8 +24,8 @@ export AWS_SECRET_ACCESS_KEY=Lv6nw/8mKqLK5VEs0jl27y65aqw0o/zCg0vrFWaR
 export AWS_USER_ID=302111108253
 export AWS_SSHKEY="~/.ec2/capistrano-keypair"
 
-export EDITOR='mate -w'
-export GIT_EDITOR='mate -w'
+export EDITOR='vim'
+export GIT_EDITOR='vim'
 
 function cdls() {
 	cd "$@" && ls -lAFGho;
